@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+body{
+    background-image: url(YeojiYeojyeojYeoj.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: "Unica One";
+}
+
+.heading{
+    font-size: 5.5rem;
+}
+
+.subheading{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.green{
+    font-weight: bold;
+    color: darkgreen;
+}
