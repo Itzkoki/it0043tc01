@@ -1,0 +1,118 @@
+body {
+    background: url('PokemonBackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 60px;
+}
+
+.container .box-container .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #000000a4;
+    text-align: center;
+    padding: 30px 20px;
+    transition: transform 0.3s;
+}
+
+.container .box-container .box img {
+    height: 250px;
+    width: 250px;
+}
+
+.container .box-container .box h3 {
+    color: #00ff80;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p {
+    color: #e0e0e0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #ffffff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container .box-container .box .btn:hover {
+    letter-spacing: 1px;
+    vertical-align: auto;
+    background: #555;
+}
+
+.container .box-container .box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.03);
+}
+
+.water { color: #03acfa; }
+.electric { color: #ffd700; }
+.fire { color: #ff4500; }
+.psychic { color: #ff69b4; }
+.normal { color: #a8a878; }
+.flying { color: #87ceeb; }
+
+.type-box {
+    margin-top: 10px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    background: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+.type-box.water { background: #0d42d6; }
+.type-box.electric { background: #ffd700; }
+.type-box.fire { background: #ff0800; }
+.type-box.psychic { background: #ff69b4; }
+.type-box.normal { background: #a8a878; }
+.type-box.flying { background: #87ceeb; padding: 8px 35px; }
+
+/* Type box hover effects */
+.type-box.water:hover { background: #0d42d6; color: #9c9c9c; }
+.type-box.electric:hover { background: #ffc700; color: #9c9c9c; }
+.type-box.fire:hover { background: #ff0800; color: #9c9c9c; }
+.type-box.psychic:hover { background: #e06090; color: #9c9c9c; }
+.type-box.normal:hover { background: #909060; color: #9c9c9c; }
+.type-box.flying:hover { background: #5cb9e3; color: #9c9c9c; }
+
+/* Type button hover effects */
+.btn.water:hover { background: #0d42d6; color: #fff; }
+.btn.electric:hover { background: #ffd700; color: #fff; }
+.btn.fire:hover { background: #ff0800; color: #fff; }
+.btn.psychic:hover { background: #ff69b4; color: #fff; }
+.btn.normal:hover { background: #a8a878; color: #fff; }
+.btn.flying:hover { background: #87ceeb; color: #fff; }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
