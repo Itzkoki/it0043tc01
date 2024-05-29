@@ -1,15 +1,308 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pokemon Icon Grid</title>
-  <link rel="stylesheet" href="style.css"> </head>
-<body>
-  <div class="container">
-    <img src="pokemon1.jpg" alt="Pokemon 1" class="pokemon-icon">
-    <img src="pokemon2.jpg" alt="Pokemon 2" class="pokemon-icon">
-    <img src="pokemon3.jpg" alt="Pokemon 3" class="pokemon-icon">
-    </div>
-</body>
-</html>
+body {
+    background: url('Pockemon.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    transition: .2s linear;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 97vw;
+    border: 5px solid black;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: orangered;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box p {
+    margin-top: 5px;
+}
+
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: lightseagreen;
+}
+
+.box2 img {
+    width: 100%;
+    height: auto;
+}
+
+.box2 p {
+    margin-top: 5px;
+}
+
+
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: #00ff6aa4;
+}
+
+.box3 img {
+    width: 100%;
+    height: auto;
+}
+
+.box3 p {
+    margin-top: 5px;
+}
+
+
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: gold;
+}
+
+.box4 img {
+    width: 100%;
+    height: auto;
+}
+
+.box4 p {
+    margin-top: 5px;
+}
+
+
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: turquoise;
+    }
+    
+.box5 img {
+    width: 100%;
+    height: auto;
+}
+    
+.box5 p {
+    margin-top: 5px;
+}
+
+
+
+.box6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: rgb(138, 88, 88);
+    }
+    
+.box6 img {
+    width: 100%;
+    height: auto;
+}
+    
+.box6 p {
+    margin-top: 5px;
+}
+
+
+
+.box7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: rgb(247, 225, 167);
+    }
+    
+.box7 img {
+    width: 100%;
+    height: auto;
+}
+    
+.box7 p {
+    margin-top: 5px;
+}
+
+
+
+.box8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: rgb(247, 225, 167);
+    }
+    
+.box8 img {
+    width: 100%;
+    height: auto;
+}
+    
+.box8 p {
+    margin-top: 5px;
+}
+
+
+
+.box9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: rgb(247, 225, 167);
+    }
+    
+.box9 img {
+    width: 100%;
+    height: auto;
+}
+    
+.box9 p {
+    margin-top: 5px;
+}
+
+
+
+.box10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: rgb(247, 225, 167);
+    }
+    
+.box10 img {
+    width: 100%;
+    height: auto;
+}
+    
+.box10 p {
+    margin-top: 5px;
+}
+
+
+
+.box11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: rgb(247, 225, 167);
+    }
+    
+.box11 img {
+    width: 100%;
+    height: auto;
+}
+    
+.box11 p {
+    margin-top: 5px;
+}
+
+
+.box12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    background: rgb(247, 225, 167);
+    }
+    
+.box12 img {
+    width: 100%;
+    height: auto;
+}
+    
+.box12 p {
+    margin-top: 5px;
+}
+
+@media (max-width: 760px){
+    .container{
+        flex-direction: column;
+    }
+}
