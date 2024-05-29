@@ -1,23 +1,62 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; /* Optional for even distribution */
-  width: 100%; /* Ensures full-width container on all screens */
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.pokemon-icon {
-  width: 33.33%; /* Adjust for desired icon size */
-  height: auto; /* Maintain aspect ratio */
-  margin: 5px; /* Optional spacing between icons */
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flex-box.css">
+</head>
 
-/* Media query for smaller screens (adjust breakpoint as needed) */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column; /* Stack icons vertically */
-  }
+<body>
+    <div class="flex-container">
+        <div class="box">
+            <img src="img/charmander1.png" alt="Abra">
+            <p>CHARMANDER</p>
+        </div>
+        <div class="box2">
+            <img src="img/squirtle1.png" alt="Bellsprout">
+            <p>SQUIRTLE</p>
+        </div>
+        <div class="box3">
+            <img src="img/bullbasaur.png" alt="Caterpie">
+            <p>BULBASAUR</p>
+        </div>
+        <div class="box4">
+            <img src="img/pikachu.png" alt="Charmander">
+            <p>PIKACHU</p>
+        </div>
+        <div class="box5">
+            <img src="img/dratini.png" alt="Dratini">
+            <p>DRATINI</p>
+        </div>
+        <div class="box6">
+            <img src="img/psyduck.png" alt="Eevee">
+            <p>PSYDUCK</p>
+        </div>
+        <div class="box7">
+            <img src="img/snorlax.png" alt="Haunter">
+            <p>SNORLAX</p>
+        </div>
+        <div class="box8">
+            <img src="img/eevee.png" alt="Jigglypuff">
+            <p>EEVEE</p>
+        </div>
+        <div class="box9">
+            <img src="img/mew.png" alt="Mankey">
+            <p>MEW</p>
+        </div>
+        <div class="box10">
+            <img src="img/abra.png" alt="Rattata">
+            <p>ABRA</p>
+        </div>
+        <div class="box11">
+            <img src="img/caterpie.png" alt="Meowth">
+            <p>CATERPIE</p>
+        </div>
+        <div class="box12">
+            <img src="img/rattata.png" alt="Psyduck">
+            <p>RATTATA</p>
+        </div>
+</body>
 
-  .pokemon-icon {
-    width: 50%; /* Adjust for desired icon size on smaller screens */
-  }
-}
+</html>
