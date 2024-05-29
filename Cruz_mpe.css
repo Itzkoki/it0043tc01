@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s ease;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-image: url('PokeGod.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 90vw;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.icon {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    display: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8); /* Transparent white */
+    font-size: 2rem;
+}
+
+.types {
+    display: none;
+    text-align: center;
+}
+
+#pokeball {
+    display: none;
+    width: 115px;
+    height: 80px;
+}
+
+/* Colors for each Pokemon */
+.fire {
+    background-color: rgba(255, 69, 0, 0.8); 
+}
+
+.water {
+    background-color: rgba(32, 178, 170, 0.8); 
+}
+
+.waterr {
+    background-color: rgba(118, 240, 11, 0.8); 
+}
+
+.grass {
+    background-color: rgba(0, 255, 106, 0.8); 
+}
+
+.electric {
+    background-color: rgba(255, 215, 0, 0.8); 
+}
+
+.dragon {
+    background-color: rgba(62, 83, 217, 0.8); 
+}
+
+.normal {
+    background-color: rgba(247, 225, 167, 0.8); 
+}
+
+.normall {
+    background-color: rgba(26, 21, 9, 0.8); 
+}
+
+.psychic {
+    background-color: rgba(245, 52, 113, 0.8); 
+}
+
+.psychicc {
+    background-color: rgba(128, 0, 0, 0.8); 
+}
+
+.bug {
+    background-color: rgba(84, 180, 6, 0.8); 
+}
+
+.poison {
+    background-color: rgba(132, 1, 169, 0.8); 
+}
+
+@media (max-width: 1100px) {
+    .icon {
+        display: flex;
+        padding: 20px;
+        width: 600px;
+        vertical-align: center;
+        flex-grow: 1;
+    }
+
+    .icon:hover {
+        background-image: url("hover.JPG");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    p, #pokeball {
+        display: inline-block;
+    }
+
+    img {
+        width: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .icon {
+        padding: 20px;
+        width: 250px;
+        vertical-align: center;
+        flex-grow: 1;
+        flex-direction: column;
+    }
+
+    .icon:hover {
+        background-image: url("hover.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    p, .types {
+        display: inline-block;
+    }
+
+    #pokeball {
+        display: none;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    .types {
+        width: 100%;
+        margin: 0 10rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .type1, .type2 {
+        display: inline-block;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        margin: 0.5rem;
+        color: white;
+        font-size: 1.5rem;
+        flex-grow: 1;
+    }
+}
