@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Design_tsa7.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button id="reset">Reset Flexbox</button>
+            <div class="control-group">
+                <label>Gap: </label>
+                <input type="number" id="gap" value="0">
+                <button id="set-gap">Gap</button>
+            </div>
+            <div>
+                <label>Flex Direction:</label>
+                <button id="direction-row">Row</button>
+                <button id="direction-column">Column</button>
+            </div>
+            <div>
+                <label>Justify Content:</label>
+                <button id="justify-start">Start</button>
+                <button id="justify-center">Center</button>
+                <button id="justify-end">End</button>
+                <button id="justify-space-between">Space Between</button>
+                <button id="justify-space-around">Space Around</button>
+                <button id="justify-space-evenly">Space Evenly</button>
+            </div>
+            <div>
+                <label>Align Items:</label>
+                <button id="align-start">Start</button>
+                <button id="align-center">Center</button>
+                <button id="align-end">End</button>
+            </div>
+            <div class="control-group">
+                <label>Flex Grow:</label>
+                <button id="grow-reset">Reset</button>
+                <button id="grow-all">Grow All</button>
+                <input type="number" id="grow-b1" value="0">
+                <button id="growB1">Box 1</button>
+                <input type="number" id="grow-b2" value="0">
+                <button id="growB2">Box 2</button>
+                <input type="number" id="grow-b3" value="0">
+                <button id="growB3">Box 3</button>
+            </div>
+        </div>
+        <div class="flex-container" id="flex-container">
+            <div class="Box" id="item1">1</div>
+            <div class="Box" id="item2">2</div>
+            <div class="Box" id="item3">3</div>
+        </div>
+    </div>
+
+    <script src="Script_tsa7.js"></script>
+</body>
+</html>
+
