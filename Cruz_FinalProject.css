@@ -355,7 +355,7 @@ section {
     opacity: 1;
 }
 
-.btn.fire {
+.btn.proj {
     background-color: #00ff80; 
     border-radius: 20px;
     color: rgb(85, 85, 85);
@@ -364,7 +364,7 @@ section {
     transition: background-color 0.3s;
 }
 
-.btn.fire:hover {
+.btn.proj:hover {
     background-color: #1eb167;
 }
 
