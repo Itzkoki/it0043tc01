@@ -646,3 +646,32 @@ footer span {
         height: 230px;
     }
 }
+
+@media only screen and (max-width: 337px) {
+    .header {
+        padding: 10px 5%;
+    }
+    .logo span {
+        color: #f9005a;
+    }
+    .home {
+        padding-top: 10vh;
+        padding-bottom: 40vh;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .home-content {
+        max-width: 100%; 
+        text-align: center; 
+        padding: 0 10px; 
+    }
+    .home-image {
+        width: 80%; 
+
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
