@@ -445,6 +445,8 @@ footer span {
     color: #f9005a;
 }
 
+
+/* Media Queries */
 @media only screen and (max-width: 1200px) {
     .header {
         padding: 20px 5%;
@@ -458,6 +460,9 @@ footer span {
 }
 
 @media only screen and (max-width: 900px) {
+    * {
+        font-size: medium;
+    }
     .header {
         padding: 60px 2%;
     }
@@ -470,7 +475,7 @@ footer span {
     .home-content h3 {
         font-size: 24px;
     }
-    .section {
+    section {
         min-height: auto;
     }
     .about-me-grid {
@@ -487,7 +492,10 @@ footer span {
     }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 860px) {
+    * {
+        font-size: medium;
+    }
     .header {
         padding: 20px 5%;
     }
@@ -504,12 +512,109 @@ footer span {
         width: 100%;
         max-width: 100%;
         height: auto;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
     .about-me-grid img {
-        height: 500px; 
+        height: 500px;
     }
     .skills-container {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .item1,
+    .item2 {
+        grid-column: span 1;
+        grid-row: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    * {
+        font-size: smaller;
+    }
+    .header {
+        padding: 10px 5%;
+    }
+    .home-content h1 {
+        font-size: 24px;
+    }
+    .home-content h3 {
+        font-size: 16px;
+    }
+    .home-image {
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .about-me-grid img {
+        height: 400px;
+    }
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    * {
+        font-size: smaller;
+    }
+    .home-image {
+        height: 250px; 
+    }
+    .about-me-grid img {
+        height: 350px; 
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    * {
+        font-size: smaller;
+    }
+    .home-image {
+        height: 200px; 
+    }
+    .about-me-grid img {
+        height: 300px; 
+    }
+}
+
+@media only screen and (max-width: 906px) {
+    * {
+        font-size: smaller;
+    }
+    .project-box {
+        max-width: 500px;
+        height: 225px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    * {
+        font-size: smaller;
+    }
+    .project-box {
+        max-width: auto;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 354px) {
+    * {
+        font-size: smaller;
+    }
+    .project-box {
+        max-width: auto;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 305px) {
+    * {
+        font-size: smaller;
+    }
+    .project-box {
+        max-width: auto;
+        height: 230px;
     }
 }
